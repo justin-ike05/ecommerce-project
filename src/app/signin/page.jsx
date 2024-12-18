@@ -1,5 +1,6 @@
 'use client';
 import React, { useState } from "react";
+import { SiApostrophe } from "react-icons/si";
 
 function SignIn() {
     const [email, setEmail] = useState('');
@@ -54,7 +55,7 @@ function SignIn() {
             </button>
           </form>
           <p className="mt-4 text-center text-sm text-gray-400">
-            Don't have an account?{' '}
+            Don&apos;t have an account?{' '}
             <a href="/signup" className="text-orange hover:underline">
               Sign Up
             </a>

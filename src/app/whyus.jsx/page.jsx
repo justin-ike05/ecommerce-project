@@ -16,7 +16,7 @@ const WhyUs = () => {
         Why choose <span className='text-orange-400'>Planet Wheels</span>
       </h1>
       <p>
-        Choose Planet Wheels for high-quality products, fast and easy booking, and exceptional customer service. We're dedicated to providing a seamless and satisfying experience every time!
+        Choose Planet Wheels for high-quality products, fast and easy booking, and exceptional customer service. We&apos;re dedicated to providing a seamless and satisfying experience every time!
       </p>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10 gap-5'>
         <WhyUsCard icon={icon1} title="Financing Options" description={'Planet Wheels offers top-quality wheels at competitive prices, paired with a seamless shopping experience and expert support. With a wide selection to fit every need and a commitment to sustainability, we deliver style, durability, and value you can trust.'} />

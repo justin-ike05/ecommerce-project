@@ -9,13 +9,18 @@ import Link from 'next/link'
 const Hero = () => {
   return (
     <div>
-      <div
-        className="relative w-full min-h-screen bg-cover bg-center"
-        style={{ backgroundImage: `url(${pic.src})` }}
-      >
+      <div className="relative w-full min-h-screen">
+        <Image
+          src={pic}
+          alt="Hero background"
+          layout="fill"
+          objectFit="cover"
+          priority
+          className="absolute z-0"
+        />
         <div className="absolute inset-0 bg-black opacity-70"></div>
         <div className="relative z-10 flex flex-col justify-center items-center h-full text-center text-white px-6">
-          <div className=" pt-20 space-y-10">
+          <div className="pt-20 space-y-10">
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
               Your Destination for the Perfect Ride
             </h1>
@@ -25,7 +30,6 @@ const Hero = () => {
               Whether you're looking for speed, style, or reliability, we connect you to the best cars at unbeatable
               prices. Your perfect car is just a click away!
             </p>
-
             <div className="flex flex-column justify-center gap-8">
               <button className="bg-orange-400 py-1 px-4 rounded-md hover:scale-95 transition duration-150">
                 Explore here
@@ -40,13 +44,12 @@ const Hero = () => {
         </div>
       </div>
 
-     
       <div className="py-10 bg-black">
         <WhyUs />
         <OurMission />
       </div>
     </div>
   );
-}
-export default Hero
+};
 
+export default Hero;
