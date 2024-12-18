@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from "react";
-import { SiApostrophe } from "react-icons/si";
+
 
 function SignIn() {
     const [email, setEmail] = useState('');
@@ -8,7 +8,6 @@ function SignIn() {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        // Handle form submission logic here
         console.log('Email:', email);
         console.log('Password:', password);
     };

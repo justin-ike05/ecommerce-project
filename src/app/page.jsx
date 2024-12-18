@@ -27,7 +27,7 @@ const Hero = () => {
             <p className="text-lg lg:text-2xl font-medium">Over 100+ New Cars Available!</p>
             <p className="text-base lg:text-base">
               From sleek sedans to rugged SUVs, luxury rides to budget-friendly gems—Planet Wheels has it all.
-              Whether you're looking for speed, style, or reliability, we connect you to the best cars at unbeatable
+              Whether you&apos;re looking for speed, style, or reliability, we connect you to the best cars at unbeatable
               prices. Your perfect car is just a click away!
             </p>
             <div className="flex flex-column justify-center gap-8">
