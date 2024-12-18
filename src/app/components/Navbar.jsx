@@ -17,7 +17,7 @@ const Navbar = () => {
             <nav className="container flex justify-between items-center">
                 <div className="flex items-center gap-2">
                     <GiSteeringWheel size={35} className="text-orange-400" />
-                    <a href="/" className="font-bold text-2xl">Planet Wheels</a>
+                    <Link href="/" className="font-bold text-2xl">Planet Wheels</Link>
                 </div>
                 <div className="hidden md:flex items-center gap-8 font-medium text-xl">
                     <Link href="/" className="hover:text-orange-400 duration-200 ease-linear">Home</Link>
