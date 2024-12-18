@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Approach = () => {
   return (
@@ -10,7 +11,7 @@ const Approach = () => {
         <p className='text-sm lg:text-base'>We strive to empower our customers with reliable products and exceptional service, ensuring they drive forward with confidence and satisfaction. At Planet Wheels, your journey begins with trust and ends with excellence.</p>
       </div>
       <div>
-        <img src="/images/approach.jpg" alt="Approach" className='rounded-lg' width={500} height={500} />
+        <Image src="/images/approach.jpg" alt="Approach" className='rounded-lg' width={500} height={500} />
       </div>
     </div>
   )

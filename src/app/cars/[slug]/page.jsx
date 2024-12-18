@@ -1,5 +1,6 @@
 
 import { carData } from "@/app/components/data";
+import Image from "next/image";
 
 
 const CarPage = ({ params }) => {
@@ -15,7 +16,7 @@ const CarPage = ({ params }) => {
         <h1 className="text-4xl font-bold mb-4">{car.model}</h1>
         <div className="flex flex-col md:flex-row">
           <div className="w-full md:w-1/2">
-            <img src={car.image} alt={car.model} className="rounded-lg w-full h-auto object-cover" />
+            <Image src={car.image} alt={car.model} className="rounded-lg w-full h-auto object-cover" />
           </div>
           <div className="md:ml-8 mt-6 md:mt-0">
             <h2 className="text-xl font-semibold">Price: ${car.price}</h2>
