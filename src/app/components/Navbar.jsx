@@ -38,12 +38,12 @@ const Navbar = () => {
                 </div>
             </nav>
             <div className={`${menu ? "translate-x-0" : "-translate-x-full"} md:hidden flex flex-col absolute bg-gray-900 text-white left-0 top-16 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-3/4 h-fit rounded-br-xl transition-transform duration-300 ease-in-out z-40`}>
-                <a href="/" className="hover:text-orange-400 duration-200 ease-linear">Home</a>
-                <a href="/about" className="hover:text-orange-400 duration-200 ease-linear">About us</a>
-                <a href="/cars" className="hover:text-orange-400 duration-200 ease-linear">Our Cars</a>
-                <a href="/services" className="hover:text-orange-400 duration-200 ease-linear">Services</a>
+                <Link href="/" className="hover:text-orange-400 duration-200 ease-linear">Home</Link>
+                <Link href="/about" className="hover:text-orange-400 duration-200 ease-linear">About us</Link>
+                <Link href="/cars" className="hover:text-orange-400 duration-200 ease-linear">Our Cars</Link>
+                <Link href="/services" className="hover:text-orange-400 duration-200 ease-linear">Services</Link>
                 <div>
-                <a href="/signin" className="border-2 border-orange-400 py-1 px-4 rounded-md">Sign In</a>
+                <Link href="/signin" className="border-2 border-orange-400 py-1 px-4 rounded-md">Sign In</Link>
                 
                 </div>
             </div>
